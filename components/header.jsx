@@ -37,9 +37,11 @@ const Header = () => {
 
         {/* دکمه سمت چپ در دسکتاپ */}
         <div className="hidden md:block md:order-3">
-          <button className="bg-cyan-600 text-white font-bold py-2 px-4 rounded-xl duration-700 hover:scale-105 transition-transform">
-            درخواست مشاوره
-          </button>
+          <Link href={"tel:+989126583961"}>
+            <button className="bg-cyan-600 text-white font-bold py-2 px-4 rounded-xl duration-700 hover:scale-105 transition-transform">
+              درخواست مشاوره
+            </button>
+          </Link>
         </div>
 
         {/* منوی همبرگری در موبایل */}
@@ -68,9 +70,11 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <button className="w-full bg-cyan-300 text-gray-800 duration-700 font-bold py-3 rounded-xl mt-4 hover:scale-105 transition-transform">
-            درخواست مشاوره
-          </button>
+          <Link href={"tel:+989126583961"}>
+            <button className="w-full bg-cyan-300 text-gray-800 duration-700 font-bold py-3 rounded-xl mt-4 hover:scale-105 transition-transform">
+              درخواست مشاوره
+            </button>
+          </Link>
         </motion.div>
       )}
     </header>

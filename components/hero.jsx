@@ -43,6 +43,7 @@ import Header from "./header";
 // components/Hero.jsx
 import { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   const title = "طراحی وب‌سایت حرفه‌ای برای کسب‌وکار شما";
@@ -100,10 +101,11 @@ export default function Hero() {
           >
             {typedSubtitle}
           </motion.p>
-
-          <button className="bg-white text-black font-semibold px-6 py-3 rounded-xl hover:bg-gray-200 transition duration-300">
-            {buttonText}
-          </button>
+          <Link href={"tel:+989126583961"}>
+            <button className="bg-white text-black font-semibold px-6 py-3 rounded-xl hover:bg-gray-200 transition duration-300">
+              {buttonText}
+            </button>
+          </Link>
         </div>
       </section>
 
