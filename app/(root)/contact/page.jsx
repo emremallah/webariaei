@@ -18,7 +18,7 @@ function ContactUs() {
           <br />
           <span className='font-semibold text-cyan-400'>شماره تماس، واتساپ و تلگرام:</span> 09126583961
           <br />
-          <span className='font-semibold text-cyan-400'>اینستاگرام:</span> <a href='https://instagram.com/webariaei' target='_blank' className='underline hover:text-[#00FFC2]'>@webariaei</a>
+          <span className='font-semibold text-cyan-400'>اینستاگرام:</span> <a href='https://instagram.com/webariaei' target='_blank' className='underline hover:text-cyan-600'>@webariaei</a>
           <br />
           <span className='font-semibold text-cyan-400'>آدرس:</span> تهران، فرمانیه
           <br /><br />
