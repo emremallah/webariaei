@@ -10,6 +10,7 @@ const navItems = [
   { label: "درباره‌ ما", href: "/about" },
   { label: "نمونه‌کارها", href: "/portfolio" },
   { label: "خدمات", href: "/services" },
+  { label: "وبلاگ", href: "/blogs" },
   { label: "ارتباط با ما", href: "/contact" },
 ];
 
